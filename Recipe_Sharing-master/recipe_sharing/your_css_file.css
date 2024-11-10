@@ -1,0 +1,36 @@
+/* Apply styles to the file container */
+.file-container {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    text-align: center;
+    width: 250px; /* Adjust the width as needed */
+    display: inline-block;
+    max-width: 100%; /* Ensure a responsive layout */
+    max-height: 200px; /* Adjust the maximum height as needed */
+}
+
+/* Style the description text */
+.file-container p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Optional: Add spacing between file containers */
+.file-container + .file-container {
+    margin-left: 20px;
+}
+
+/* Style the image inside the file container */
+.file-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #555;
+    border-radius: 10px;
+}

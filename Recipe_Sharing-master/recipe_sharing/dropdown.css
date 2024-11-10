@@ -1,0 +1,27 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30-Aug-2023, 10:54:17 am
+    Author     : sudha
+*/
+
+.dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content{
+      display:none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display:block;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px; 
+  }
